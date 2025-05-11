@@ -23,7 +23,7 @@ public class SpaceWeatherAlertController {
     @ResponseStatus(HttpStatus.ACCEPTED)
     public String health() {
         log.info("Health check endpoint called.");
-        return "LIVE";
+        return "SPACE WEATHER ALERTING LIVE";
     }
 
     @PostMapping("/alert")
